@@ -4,54 +4,84 @@
 }
 
 body{
-    background-color: rgb(134, 210, 148);
-    
+    background-color: black
+   
+}
+.geral{
+    position:absolute;
+    z-index: -1;
+    min-width: 100vw;
+    min-height: 100%;
+    height: auto;
+    object-fit:fill;
 }
 .navigation-home-list{
-    border: 1px solid rebeccapurple;
+    /*border: 1px solid rebeccapurple;*/
     display: flex;
     margin: 5px;
     padding: 10px;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
 .img-nav-groot{
     display: flex;
-    margin-left: 30px;
+    margin-left: 150px;
 }
 .img-nav-div{
     display: flex;
     height: 80px;
     
 }
-
-.link-nav-github{
-   color: aliceblue;
+.list-nav-div{
+    
 }
+
 .links-nav{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    gap: 100px;
-    margin-right: 20px;
-    
+    gap: 30px;
+    margin-right: 150px;
+    color: white;
+}
+.links-navigation-div{
+    font-family: 'Raleway', sans-serif;
+    font: weight 400px;
+    font-size: 17px;
+}
+.navigation-home-list{
+    display: flex;
+}
+.list{
+    display: flex;
+    height: 59px;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.links-navigation-github{
+    background-color:rgb(92, 21, 213);
+    padding: 7px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 /*----------COMEÇO DO QUEM EU SOU -----------*/
-.body-foto-principal{
-display: flex;
-border: 1px solid black;
-justify-content: space-around;
-align-items: center;
-}
+
 
 .main{
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 
 }
 .descricao{
     padding-top: 100px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,12 +95,13 @@ align-items: center;
 .summary{
     margin-left: 30px
 }
+.foto{
+    margin-right: 120px;
+}
 
 .foto-principal{
-    border-radius: 90px;
     display: flex;
-    border:1px solid black;
-    margin-right: 30px;
+    margin-right: 160px;
     margin: 10px;
     
 }
