@@ -19,24 +19,26 @@ body{
     /*border: 1px solid rebeccapurple;*/
     display: flex;
     margin: 5px;
-    padding: 10px;
+    padding: 3px;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    /*border: 1px solid green;*/
 }
 .img-nav-groot{
     display: flex;
-    margin-left: 150px;
+    margin-left: 80px;
+    /*border: 1px solid green;*/
+    height: 130px;
+    align-items: center;
+    margin-top: 50px;
+
 }
 .img-nav-div{
     display: flex;
-    height: 80px;
+    height: 300px;
     
 }
-.list-nav-div{
-    
-}
-
 .links-nav{
     list-style: none;
     display: flex;
@@ -61,7 +63,7 @@ body{
     font-weight: bold;
 }
 .links-navigation-github{
-    background-color:rgb(92, 21, 213);
+    background-color:rgb(49, 242, 15);
     padding: 7px 18px;
     border-radius: 5px;
     cursor: pointer;
@@ -75,33 +77,84 @@ a{
 
 .main{
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    /*border: 1px solid black;*/
 
 }
 .descricao{
-    padding-top: 100px;
+    padding-top: 10px;
     /*border: 1px solid red;*/
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 30px;
+    /*border: 1px solid red;*/
+    justify-content: center;
+    width: 600px;
 
 }
-.quem-sou-eu{
+.ops{
+   color: rgb(49, 242, 15);
+   font-size: 110px;
+   font-family: 'Roboto', sans-serif;
+   margin-top: 100px;
+   /*border: 1px solid red;*/
+   margin-left: 250px;
+   margin-bottom: 150px;
+   text-decoration:gray 8px underline;
+   box-sizing: border-box;
+   height: 150px;
+
+   
+}
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: overline;
+    
+}
+.dev-sou-eu{
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size:200px;
+ font-family: 'Roboto', sans-serif;
+ box-sizing: border-box;
+ transform: rotate(-45deg);
+ /*border: 1px solid rgb(251, 250, 250);*/
+ z-index: -1;
+ position: absolute;
+ margin-bottom: 150px;
+ margin-right: 150px;
+ 
+ 
+}
+.button-me-conheça{
+    position:absolute;
+    margin-top: 310px;
+    align-items: center;
+    /*border: 1px solid green;*/
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 .summary{
-    margin-left: 30px
+    margin-left: 30px;
 }
 .foto{
-    margin-right: 120px;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .foto-principal{
     display: flex;
-    margin-right: 160px;
-    margin: 10px;
+    object-fit: contain;
+    align-items: center;
+    height: 400px;
+    padding: 10px;
+    width: 350px;
+    
     
 }
