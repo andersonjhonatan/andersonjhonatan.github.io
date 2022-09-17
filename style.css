@@ -7,6 +7,9 @@ body{
     background-color: black
    
 }
+.list-nav-div{
+    margin-right: 5%;
+}
 .geral{
     position:absolute;
     z-index: -1;
@@ -46,11 +49,12 @@ body{
     gap: 30px;
     margin-right: 150px;
     color: white;
+    font-size: 25px;
 }
 .links-navigation-div{
     font-family: 'Raleway', sans-serif;
     font: weight 400px;
-    font-size: 17px;
+    font-size: 90%;
 }
 .navigation-home-list{
     display: flex;
@@ -100,16 +104,16 @@ a{
    /*border: 1px solid red;*/
    margin-left: 250px;
    margin-bottom: 150px;
-   text-decoration:gray 8px underline;
+   text-decoration:rgb(253, 253, 253) 8px underline;
    box-sizing: border-box;
    height: 150px;
 
    
 }
 h1{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
-    text-decoration: overline;
+    text-decoration:rgb(43, 255, 0) overline;
     
 }
 .dev-sou-eu{
@@ -128,13 +132,23 @@ h1{
 }
 .button-me-conheça{
     position:absolute;
-    margin-top: 310px;
+    margin-top: 240px;
     align-items: center;
     /*border: 1px solid green;*/
     justify-content: center;
-    width: 200px;
-    height: 40px;
+    width: 210px;
+    height: 60px;
     border-radius: 10px;
+    background-color:rgb(49, 242, 15);
+    border: none;
+    margin-left: 100px;
+}
+.edit-o-link-buttom{
+    color:rgb(255, 255, 255) ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+
 }
 
 .summary{
