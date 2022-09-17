@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body{
@@ -88,6 +87,8 @@ a{
     text-decoration: none;
     color: white;
 }
+
+
 /*----------COMEÇO DO QUEM EU SOU -----------*/
 
 
@@ -124,7 +125,6 @@ a{
    box-sizing: border-box;
    height: 150px;
 
-   
 }
 h1{
 
@@ -145,7 +145,6 @@ h1{
     margin-bottom: 150px;
     margin-right: 150px;
     font-family: 'Roboto', sans-serif;
- 
  
 }
 .button-me-conheça{
